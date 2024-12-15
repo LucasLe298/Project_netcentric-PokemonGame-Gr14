@@ -1,0 +1,78 @@
+{
+  "player_a": {
+    "name": "PlayerA",
+    "pokemons": [
+      {
+        "name": "Bulbasaur",
+        "image": "",
+        "type": [
+          "Grass"
+        ],
+        "level": 0,
+        "accumulated_exp": 0,
+        "attack": 0,
+        "defense": 0,
+        "speed": 0,
+        "special_attack": 0,
+        "special_defense": 0,
+        "hp": 100,
+        "ev": 0
+      },
+      {
+        "name": "Charmander",
+        "image": "",
+        "type": [
+          "Fire"
+        ],
+        "level": 0,
+        "accumulated_exp": 0,
+        "attack": 0,
+        "defense": 0,
+        "speed": 0,
+        "special_attack": 0,
+        "special_defense": 0,
+        "hp": 90,
+        "ev": 0
+      }
+    ],
+    "active": 0
+  },
+  "player_b": {
+    "name": "PlayerB",
+    "pokemons": [
+      {
+        "name": "Pidgey",
+        "image": "",
+        "type": [
+          "Flying"
+        ],
+        "level": 0,
+        "accumulated_exp": 0,
+        "attack": 0,
+        "defense": 0,
+        "speed": 0,
+        "special_attack": 0,
+        "special_defense": 0,
+        "hp": 80,
+        "ev": 0
+      },
+      {
+        "name": "Rattata",
+        "image": "",
+        "type": [
+          "Normal"
+        ],
+        "level": 0,
+        "accumulated_exp": 0,
+        "attack": 0,
+        "defense": 0,
+        "speed": 0,
+        "special_attack": 0,
+        "special_defense": 0,
+        "hp": 75,
+        "ev": 0
+      }
+    ],
+    "active": 0
+  }
+}

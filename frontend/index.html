@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon World</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- ------------------ MENU SCREEN --------------------- -->
+    <div id="menu-screen" class="menu-screen">
+        <h1>POKÉMON WORLD</h1>
+        <div class="menu-buttons">
+            <button id="start-game-btn">START GAME</button>
+            <button id="catch-pokemon-btn">CATCH POKÉMON</button>
+            <button id="your-pokemon-btn">YOUR POKÉMON</button>
+        </div>
+    </div>
+
+    <!-- ------------------ BATTLE SCREEN --------------------- -->
+    <div id="battle-screen" class="hidden">
+        <h2>Battle Arena</h2>
+        <div class="battle-container">
+            <div class="player-pokemon">
+                <h3>Player A</h3>
+                <img id="player-a-img" class="pokemon-image" alt="Player A Pokémon">
+                <div id="player-a-hp-bar" class="hp-bar">
+                    <div class="hp"></div>
+                </div>
+            </div>
+            <div class="opponent-pokemon">
+                <h3>Player B</h3>
+                <img id="player-b-img" class="pokemon-image" alt="Player B Pokémon">
+                <div id="player-b-hp-bar" class="hp-bar">
+                    <div class="hp"></div>
+                </div>
+            </div>
+        </div>
+        <div class="battle-controls">
+            <button id="attack-btn">Attack</button>
+            <button id="switch-btn">Switch Pokémon</button>
+            <button id="surrender-btn">Surrender</button>
+            <button id="back-to-menu-from-world-btn">Back</button>
+        </div>
+        <div id="battle-log" class="battle-log">
+            <p>Battle log will appear here...</p>
+        </div>
+    </div>
+
+    <!-- ------------------ POKÉMON WORLD --------------------- -->
+    <div id="pokemon-world-screen" class="hidden">
+        <h2>Pokémon World</h2>
+        <div id="pokemon-world-map" class="pokemon-grid"></div>
+        <div class="world-controls">
+            <button id="move-up">Up</button>
+            <div class="world-control-row">
+                <button id="move-left">Left</button>
+                <button id="move-right">Right</button>
+            </div>
+            <button id="move-down">Down</button>
+        </div>
+        <button id="back-to-menu-from-world-btn" class="back-btn">Back to Menu</button>
+    </div>
+
+    <!-- ------------------ YOUR POKÉMON --------------------- -->
+    <div id="your-pokemon-screen" class="hidden">
+        <h2>Your Pokémon</h2>
+        <div id="pokemon-list"></div>
+        <button id="back-to-menu-from-your-pokemon-btn" class="back-btn">Back to Menu</button>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
